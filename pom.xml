@@ -44,6 +44,12 @@
 			</dependency>
 			<!-- Spring全家桶 -->
 
+			<dependency>
+				<groupId>com.github</groupId>
+				<artifactId>shinestar-jms</artifactId>
+				<version>1.0.0</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
@@ -126,6 +132,7 @@
 	<modules>
 		<module>shinestar-spring-boot-starter-monitor</module>
 		<module>shinestar-jms</module>
-	</modules>
+        <module>shinestar-jms-rabbitmq</module>
+    </modules>
 
 </project>
