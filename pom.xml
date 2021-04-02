@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github</groupId>
+	<groupId>com.github.shinestar</groupId>
 	<artifactId>shinestar</artifactId>
 	<version>1.0.0</version>
 	<packaging>pom</packaging>
@@ -45,8 +45,8 @@
 			<!-- Spring全家桶 -->
 
 			<dependency>
-				<groupId>com.github</groupId>
-				<artifactId>shinestar-jms</artifactId>
+				<groupId>com.github.shinestar</groupId>
+				<artifactId>shinestar-jms-adapter</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 
@@ -130,9 +130,10 @@
 	</build>
 
 	<modules>
-		<module>shinestar-spring-boot-starter-monitor</module>
-		<module>shinestar-jms</module>
+		<module>shinestar-monitor-starter</module>
+		<module>shinestar-jms-adapter</module>
         <module>shinestar-jms-rabbitmq</module>
-    </modules>
+		<module>shinestar-jms-kafka</module>
+	</modules>
 
 </project>

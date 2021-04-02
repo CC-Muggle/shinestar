@@ -9,23 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>shinestar-jms-rabbitmq</artifactId>
+    <artifactId>shinestar-jms-kafka</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.10.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>2.7.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.github.shinestar</groupId>
             <artifactId>shinestar-jms-adapter</artifactId>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -36,4 +33,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>
