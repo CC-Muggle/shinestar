@@ -10,6 +10,9 @@ import io.netty.handler.logging.LoggingHandler;
 
 import java.util.Random;
 
+/**
+ * @author yangcj
+ */
 public class HeartBeatClient {
 
     int port;

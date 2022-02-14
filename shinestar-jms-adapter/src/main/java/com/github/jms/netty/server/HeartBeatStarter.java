@@ -1,4 +1,4 @@
-package com.github.jms.netty.starter;
+package com.github.jms.netty.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 
